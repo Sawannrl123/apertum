@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/apertum/static/css/main.5f361e03.chunk.css",
+    "main.js": "/apertum/static/js/main.bb79aeb8.chunk.js",
+    "main.js.map": "/apertum/static/js/main.bb79aeb8.chunk.js.map",
+    "runtime-main.js": "/apertum/static/js/runtime-main.023176c1.js",
+    "runtime-main.js.map": "/apertum/static/js/runtime-main.023176c1.js.map",
+    "static/js/2.6cac847d.chunk.js": "/apertum/static/js/2.6cac847d.chunk.js",
+    "static/js/2.6cac847d.chunk.js.map": "/apertum/static/js/2.6cac847d.chunk.js.map",
+    "index.html": "/apertum/index.html",
+    "precache-manifest.c3b1aa6419f9f09d999a885cfdc9bb1f.js": "/apertum/precache-manifest.c3b1aa6419f9f09d999a885cfdc9bb1f.js",
+    "service-worker.js": "/apertum/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/apertum/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6cac847d.chunk.js.LICENSE.txt": "/apertum/static/js/2.6cac847d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/apertum/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.023176c1.js",
+    "static/js/2.6cac847d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.bb79aeb8.chunk.js"
+  ]
+}

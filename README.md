@@ -1,6 +1,6 @@
 This project was made as an assignment for [Apertum](https://apertumo.com/)
 
-####For running the project run these command one by one
+#### For running the project run these command one by one
 
 > - git clone https://github.com/Sawannrl123/apertum.git
 > - cd apertum

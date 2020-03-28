@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79c2b4b18313809d6a384a006e65e552",
+    "revision": "6f4c119c6e3bccd69f217c006922b5ee",
     "url": "/apertum/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/apertum/static/js/2.d591ae16.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6dd04d4405599f26f2d",
-    "url": "/apertum/static/js/main.b1ea62fb.chunk.js"
+    "revision": "7a8038b6ab179f3d979a",
+    "url": "/apertum/static/js/main.dc54ccb9.chunk.js"
   },
   {
     "revision": "72a1f5dc0341a26519eb",

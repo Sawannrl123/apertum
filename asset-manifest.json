@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/apertum/static/js/main.b1ea62fb.chunk.js",
-    "main.js.map": "/apertum/static/js/main.b1ea62fb.chunk.js.map",
+    "main.js": "/apertum/static/js/main.dc54ccb9.chunk.js",
+    "main.js.map": "/apertum/static/js/main.dc54ccb9.chunk.js.map",
     "runtime-main.js": "/apertum/static/js/runtime-main.023176c1.js",
     "runtime-main.js.map": "/apertum/static/js/runtime-main.023176c1.js.map",
     "static/js/2.d591ae16.chunk.js": "/apertum/static/js/2.d591ae16.chunk.js",
     "static/js/2.d591ae16.chunk.js.map": "/apertum/static/js/2.d591ae16.chunk.js.map",
     "index.html": "/apertum/index.html",
-    "precache-manifest.47ce23aa429ec1fd694f9ab0d483e16c.js": "/apertum/precache-manifest.47ce23aa429ec1fd694f9ab0d483e16c.js",
+    "precache-manifest.b3ee788219c478f868ab52bd3748ebc9.js": "/apertum/precache-manifest.b3ee788219c478f868ab52bd3748ebc9.js",
     "service-worker.js": "/apertum/service-worker.js",
     "static/js/2.d591ae16.chunk.js.LICENSE.txt": "/apertum/static/js/2.d591ae16.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.023176c1.js",
     "static/js/2.d591ae16.chunk.js",
-    "static/js/main.b1ea62fb.chunk.js"
+    "static/js/main.dc54ccb9.chunk.js"
   ]
 }

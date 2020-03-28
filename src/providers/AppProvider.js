@@ -12,7 +12,8 @@ export const AppContext = React.createContext({
   isLoading: false,
   setIsLoading: null,
   token: null,
-  setToken: null
+  setToken: null,
+  fetchUsers: null
 });
 
 export const AppProvider = props => {
@@ -34,10 +35,25 @@ export const AppProvider = props => {
 
   const handleLogin = async loginData => {
     try {
-      const response = await postData(process.env.REACT_APP_LOGIN_URL, {
+      const response = await postData("POST", process.env.REACT_APP_LOGIN_URL, {
         accountId: loginData.accountId,
         pswd: loginData.password
       });
+      return response;
+    } catch (error) {
+      console.error(error);
+      setLoginError(error);
+    }
+  };
+
+  const fetchUsers = async token => {
+    try {
+      const response = await postData(
+        "GET",
+        process.env.REACT_APP_USER_URL,
+        {},
+        token
+      );
       return response;
     } catch (error) {
       console.error(error);
@@ -55,6 +71,7 @@ export const AppProvider = props => {
         loginError,
         setLoginError,
         handleLogin,
+        fetchUsers,
         isLoading,
         setIsLoading,
         token,

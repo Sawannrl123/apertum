@@ -15,6 +15,7 @@ export const useApp = () => {
   const handleLogin = useAppContext().handleLogin;
   const token = useAppContext().token;
   const setToken = useAppContext().setToken;
+  const fetchUsers = useAppContext().fetchUsers;
 
   return {
     isLoading,
@@ -27,6 +28,7 @@ export const useApp = () => {
     setLoginError,
     handleLogin,
     token,
-    setToken
+    setToken,
+    fetchUsers
   };
 };

@@ -30,7 +30,7 @@ const Header = () => {
   const classes = useStyles();
   const { isLoggedIn, setIsLoggegIn, setToken } = useApp();
   return (
-    <AppBar position="static" className={classes.root}>
+    <AppBar position="sticky" className={classes.root}>
       <Toolbar className={classes.toolbar}>
         <Link
           color="inherit"

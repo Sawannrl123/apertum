@@ -1,12 +1,22 @@
-async function postData(url = "", data = {}, token = "") {
+async function postData(method = "GET", url = "", data = {}, token = "") {
+  if (method === "POST") {
+    const response = await fetch(url, {
+      method,
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+        Authorization: `Bearer ${token}`
+      },
+      body: JSON.stringify(data)
+    });
+    return await response.json();
+  }
   const response = await fetch(url, {
-    method: "POST",
+    method,
     headers: {
-      "Content-Type": "application/json",
       Accept: "application/json",
       Authorization: `Bearer ${token}`
-    },
-    body: JSON.stringify(data)
+    }
   });
   return await response.json();
 }

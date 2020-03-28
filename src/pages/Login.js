@@ -72,9 +72,9 @@ const Login = () => {
     else {
       setToken(response.token);
       if (loginData.remember) {
-        setCookie("token", response.token, 365);
+        setCookie("token", response.token, 0.0104167);
       } else {
-        setCookie("token", response.token, 1);
+        setCookie("token", response.token, 0.0104167);
       }
       setIsLoggegIn(true);
     }

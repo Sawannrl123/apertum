@@ -125,23 +125,23 @@ const Users = () => {
     : users;
 
   useEffect(() => {
+    setIsLoading(true);
     const getUsers = async () => {
-      setIsLoading(true);
       const response = await fetchUsers(token);
       if (response?.error_message)
         setLoginError({ message: response.error_message });
       else {
         setUsers(response);
-        setIsLoading(false);
       }
     };
     getUsers();
+    setIsLoading(false);
   }, [token]);
 
-  if ((users && users?.length > 0) || isLoading) {
+  if (users || isLoading) {
     return (
       <Container>
-        {users && users?.length > 0 && (
+        {users && users.length > 0 && (
           <Box className={classes.filter}>
             <Button
               color="inherit"
